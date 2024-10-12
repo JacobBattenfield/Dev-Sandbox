@@ -21,7 +21,7 @@
 
         //Testcase 3
         Console.WriteLine();
-        Console.WriteLine("Sum Of Digits?:");
+        Console.WriteLine("Sum Of Digits:");
         Console.WriteLine("++++++++++++++++++++++++++++");
         Console.WriteLine(Problems.SumOfDigits(33));
         Console.WriteLine(Problems.SumOfDigits(11111111));

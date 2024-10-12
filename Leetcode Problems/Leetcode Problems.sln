@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode Problems", "Leetcode Problems\Leetcode Problems.csproj", "{E560C071-708E-4760-9CB7-A6FDACDA618A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode Problems", "Leetcode Problems.csproj", "{762D2DBF-6CF6-4373-AAD2-9500EF96D71C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E560C071-708E-4760-9CB7-A6FDACDA618A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E560C071-708E-4760-9CB7-A6FDACDA618A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E560C071-708E-4760-9CB7-A6FDACDA618A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E560C071-708E-4760-9CB7-A6FDACDA618A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762D2DBF-6CF6-4373-AAD2-9500EF96D71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762D2DBF-6CF6-4373-AAD2-9500EF96D71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762D2DBF-6CF6-4373-AAD2-9500EF96D71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762D2DBF-6CF6-4373-AAD2-9500EF96D71C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CBE463C7-662B-40D8-AF1D-156CEACAB9DE}
+		SolutionGuid = {4233D231-EC1E-4A9C-9FA3-890339C86106}
 	EndGlobalSection
 EndGlobal
