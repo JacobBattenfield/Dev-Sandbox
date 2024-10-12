@@ -1,0 +1,15 @@
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\bin\Debug\net8.0\LeetCodeChallenges.exe
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\bin\Debug\net8.0\LeetCodeChallenges.deps.json
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\bin\Debug\net8.0\LeetCodeChallenges.runtimeconfig.json
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\bin\Debug\net8.0\LeetCodeChallenges.dll
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\bin\Debug\net8.0\LeetCodeChallenges.pdb
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\LeetCodeChallenges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\LeetCodeChallenges.AssemblyInfoInputs.cache
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\LeetCodeChallenges.AssemblyInfo.cs
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\LeetCodeChallenges.csproj.CoreCompileInputs.cache
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\LeetCodeChallenges.sourcelink.json
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\LeetCodeChallenges.dll
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\refint\LeetCodeChallenges.dll
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\LeetCodeChallenges.pdb
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\LeetCodeChallenges.genruntimeconfig.cache
+C:\Users\jacob\Desktop\Dev Sandbox\LeetCodeChallenges\obj\Debug\net8.0\ref\LeetCodeChallenges.dll
