@@ -27,4 +27,18 @@ class Problems{
         }
     return true;
     }
+
+    public static int SumOfDigits(int n){
+        string SplitN = Convert.ToString(n);
+        char[] charArray = SplitN.ToCharArray();
+        int[] numArray = new int[charArray.Length];
+        for(int i = 0;i<charArray.Length;i++){
+            numArray[i] = Convert.ToInt32(charArray[i])-Convert.ToInt32('0');
+        }
+        int total = 0;
+        for(int i = 0;i<numArray.Length;i++){
+            total+=numArray[i];
+        }
+        return total;
+    }
 }
