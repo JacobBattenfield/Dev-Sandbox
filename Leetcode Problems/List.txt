@@ -1,0 +1,50 @@
+Here’s a list of slightly more difficult problems, designed to build on the previous set but with added complexity:
+1. Fibonacci Sequence
+
+    Write a function that returns the first n Fibonacci numbers.
+    Difficulty: Easy-Medium
+
+2. Prime Number Check
+
+    Write a function that checks whether a given integer n is a prime number.
+    Difficulty: Easy-Medium
+
+3. Sum of Digits
+
+    Write a function that takes an integer n and returns the sum of its digits.
+    Difficulty: Easy-Medium
+
+4. Palindrome Check (Number)
+
+    Write a function that checks if a given integer n is a palindrome (reads the same forward and backward).
+    Difficulty: Easy-Medium
+
+5. Find Second Largest Number
+
+    Write a function that returns the second largest number in a given array of integers.
+    Difficulty: Easy-Medium
+
+6. Remove Duplicates from Array
+
+    Write a function that removes all duplicate values from an array of integers and returns the new array.
+    Difficulty: Easy-Medium
+
+7. Count Vowels and Consonants
+
+    Write a function that takes a string and returns the number of vowels and consonants.
+    Difficulty: Easy-Medium
+
+8. Sum of Squares of Array
+
+    Write a function that returns the sum of squares of each element in an array of integers.
+    Difficulty: Easy-Medium
+
+9. Factorial (Recursive)
+
+    Write a recursive function that returns the factorial of a given number n.
+    Difficulty: Easy-Medium
+
+10. Merge Two Sorted Arrays
+
+    Write a function that merges two sorted arrays into a single sorted array.
+    Difficulty: Easy-Medium
