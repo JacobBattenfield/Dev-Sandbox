@@ -8,7 +8,7 @@ class Problems{
         }
         int cur = 1;
         int prev = 0;
-        for(var i = +1;i<n;i++){
+        for(var i = 1;i<n;i++){
             int temp = cur+prev;
             prev = cur;
             cur = temp;
@@ -111,4 +111,53 @@ class Problems{
         }
         return $"You pressed the button {NumPresses} times and you won ${Money}!! The chances of winning any more money after {NumPresses} is {Math.Round(chances*100,2)}%";
     }
+    public static string RemoveVowels(string sentence){
+        string vowels = "AIEOUaieou";
+        string cleanSentence = "";
+        for(int i =0;i<sentence.Length;i++){
+            if(!vowels.Contains(sentence[i])){
+                cleanSentence+=sentence[i];
+            }
+        }
+        return cleanSentence;
+    }
+    public static long SumOfSquares(int[] nums){
+        double sum = 0;
+        for(int i = 0 ; i<nums.Length;i++){
+            double squared = Math.Pow(nums[i],2);
+            sum+=squared;
+        }
+        long longSum = Convert.ToInt64(sum);
+        return longSum;
+    }
+
+    public static int FindFactorial(int num){
+        int result = 1;
+        for(int i = 1;i<=num;i++){
+            result*=i;
+        }
+        return result;
+    }
+    public static int[] MergeSortedArrays(int[] arr1, int[] arr2){
+    int i = 0, j = 0;
+    int k = 0;
+    int[] mergedArray = new int[arr1.Length+arr2.Length];
+
+    while(i<arr1.Length&&j<arr2.Length){
+        if(arr1[i]<=arr2[j]){
+            mergedArray[k++] = arr1[i++];
+        }else{
+        mergedArray[k++] = arr2[j++];
+        }
+    }
+    while(i<arr1.Length){
+        mergedArray[k++] = arr1[i++];
+    }
+    while(j<arr2.Length){
+        mergedArray[k++] = arr2[j++];
+    }
+    return mergedArray;
+    }
+
+    
 }

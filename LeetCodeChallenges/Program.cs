@@ -70,7 +70,44 @@
         Console.WriteLine(Problems.HalfedButtonPressChanceOfNothing(10));
         Console.WriteLine(Problems.HalfedButtonPressChanceOfNothing(100));
         Console.WriteLine(Problems.HalfedButtonPressChanceOfNothing(1000));
-        Console.WriteLine(Problems.HalfedButtonPressChanceOfNothing(100000000));
+        Console.WriteLine(Problems.HalfedButtonPressChanceOfNothing(10000));
+        Console.WriteLine("++++++++++++++++++++++++++++");
+
+        //Testcase 9
+        Console.WriteLine();
+        Console.WriteLine("Delete Vowels:");
+        Console.WriteLine("++++++++++++++++++++++++++++");
+        Console.WriteLine(Problems.RemoveVowels("This is a test sentence"));
+        Console.WriteLine("++++++++++++++++++++++++++++");
+        
+        //Testcase 10
+        Console.WriteLine();
+        Console.WriteLine("Sum Of Squares:");
+        Console.WriteLine("++++++++++++++++++++++++++++");
+        Console.WriteLine(Problems.SumOfSquares([2,2,2,2]));
+        Console.WriteLine(Problems.SumOfSquares([32,20,12,32]));
+        Console.WriteLine(Problems.SumOfSquares([2,2,32,2]));
+        Console.WriteLine(Problems.SumOfSquares([2,12,2,2]));
+        Console.WriteLine("++++++++++++++++++++++++++++");
+
+
+         //Testcase 11
+        Console.WriteLine();
+        Console.WriteLine("Find Factorial");
+        Console.WriteLine("++++++++++++++++++++++++++++");
+        Console.WriteLine(Problems.FindFactorial(5));
+        Console.WriteLine(Problems.FindFactorial(10));
+        Console.WriteLine(Problems.FindFactorial(15));
+        Console.WriteLine(Problems.FindFactorial(19));
+        Console.WriteLine("++++++++++++++++++++++++++++");
+
+        //Testcase 12
+        Console.WriteLine();
+        Console.WriteLine("Merge Two Sorted Arrays:");
+        Console.WriteLine("++++++++++++++++++++++++++++");
+        Console.WriteLine(string.Join(" ",Problems.MergeSortedArrays([2,4,6,8,10],[1,3,5,7,9])));
+        Console.WriteLine(string.Join(" ",Problems.MergeSortedArrays([1,2,3,4],[5,6,7,8])));
+        Console.WriteLine(string.Join(" ",Problems.MergeSortedArrays([3243,53243,645355,3434543],[1,34,523,54345,5435453])));
         Console.WriteLine("++++++++++++++++++++++++++++");
     }
 }
