@@ -1,49 +1,122 @@
-1. Fibonacci Sequence
+Arrays
 
-    Write a function that returns the first n Fibonacci numbers.
-    Difficulty: Easy-Medium
+    **Sum of Elements: Find the sum of all elements in an array.** Solved
+    **Second Largest: Return the second largest number in an array without sorting.**
+    Element Frequency: Count the frequency of each element in an array.
+    Array Rotation: Rotate an array to the left by one position.
+    Array Reversal: Reverse the elements of an array in-place.
+    Remove Duplicates: Remove duplicates from a sorted array without using extra space.
+    Find Missing Number: Given an array of integers from 1 to N with one missing, find the missing number.
+    Pair Sum: Find a pair in an array whose sum equals a given number.
+    Max Difference: Find the maximum difference between two elements in an array.
+    Product of Array: Return an array where each element is the product of all elements except itself.
 
-2. Prime Number Check
+Strings
+    Palindrome Check: Check if a string is a palindrome (reads the same forward and backward).
+    Anagram Check: Check if two strings are anagrams of each other.
+    Vowel Counter: Count the number of vowels in a given string.
+    String Compression: Compress a string by replacing consecutive duplicates of characters with the character followed by the number of duplicates.
+    Reverse Words: Reverse the words in a sentence.
+    Substring Search: Implement a basic substring search without using library functions.
+    First Unique Character: Return the first non-repeating character in a string.
+    Character Frequency Sort: Sort characters in a string based on frequency.
+    Longest Common Prefix: Find the longest common prefix among an array of strings.
+    Remove Vowels: Remove all vowels from a given string.
 
-    Write a function that checks whether a given integer n is a prime number.
-    Difficulty: Easy-Medium
+Linked Lists
 
-3. Sum of Digits
+    Create Linked List: Implement a singly linked list with basic operations (insert, delete, display).
+    Middle of Linked List: Find the middle node of a linked list.
+    Detect Cycle: Detect if a cycle exists in a linked list (Floyd’s cycle detection).
+    Reverse Linked List: Reverse a singly linked list in-place.
+    Remove Nth Node from End: Remove the N-th node from the end of a linked list.
+    Merge Two Sorted Lists: Merge two sorted linked lists into one sorted list.
+    Palindrome Linked List: Check if a linked list is a palindrome.
+    Intersection of Two Lists: Find the intersection node of two singly linked lists.
+    Delete Node (O(1) Time): Delete a node from a linked list in O(1) time, given only access to that node.
+    Flatten Linked List: Flatten a multilevel doubly linked list into a singly linked list.
 
-    Write a function that takes an integer n and returns the sum of its digits.
-    Difficulty: Easy-Medium
+Recursion
 
-4. Palindrome Check (Number)
+    Factorial: Implement the factorial function using recursion.
+    Fibonacci: Implement a recursive function to return the N-th Fibonacci number.
+    String Permutations: Find all the permutations of a given string.
+    Power of Two: Check if a given number is a power of two using recursion.
+    Sum of Digits: Find the sum of the digits of a number using recursion.
+    Count Ways to Climb Stairs: Given N steps, find how many distinct ways you can climb to the top.
+    Reverse String Recursively: Reverse a string using recursion.
+    Binary Search (Recursive): Implement binary search using recursion.
+    Subsets of Array: Find all subsets of a given array using recursion.
+    Flood Fill Algorithm: Implement flood fill using recursion (like a paint fill feature).
 
-    Write a function that checks if a given integer n is a palindrome (reads the same forward and backward).
-    Difficulty: Easy-Medium
+Sorting & Searching
 
-5. Find Second Largest Number
+    Bubble Sort: Implement the bubble sort algorithm.
+    Selection Sort: Implement the selection sort algorithm.
+    Insertion Sort: Implement the insertion sort algorithm.
+    Merge Sort: Implement the merge sort algorithm.
+    Quick Sort: Implement the quick sort algorithm.
+    Binary Search: Implement binary search on a sorted array.
+    Find First Occurrence: Find the first occurrence of a number in a sorted array using binary search.
+    Find Peak Element: Find a peak element in an unsorted array (an element that is greater than its neighbors).
+    Kth Largest Element: Find the K-th largest element in an unsorted array.
+    Search Rotated Sorted Array: Search for a target in a rotated sorted array.
 
-    Write a function that returns the second largest number in a given array of integers.
-    Difficulty: Easy-Medium
+Hashing
 
-6. Remove Duplicates from Array
+    Two Sum: Find two numbers in an array that add up to a given target.
+    Isomorphic Strings: Determine if two strings are isomorphic.
+    Longest Substring Without Repeating: Find the longest substring without repeating characters.
+    Group Anagrams: Group anagrams from a list of words.
+    Find Duplicates: Find all duplicates in an array using a hash set.
+    Word Pattern: Given a pattern and a string, check if the string follows the same pattern.
+    Jewels and Stones: Given two strings, determine how many characters from one are present in the other.
+    Subarray Sum Equals K: Find the number of continuous subarrays that sum up to K.
+    Count Primes: Count all prime numbers up to a given number using a hash set for caching.
+    Contains Duplicate II: Check if there are duplicates within a given distance of each other in an array.
 
-    Write a function that removes all duplicate values from an array of integers and returns the new array.
-    Difficulty: Easy-Medium
+Trees
 
-7. Count Vowels and Consonants
+    Binary Tree Inorder Traversal: Implement in-order traversal of a binary tree.
+    Binary Tree Preorder Traversal: Implement pre-order traversal of a binary tree.
+    Binary Tree Postorder Traversal: Implement post-order traversal of a binary tree.
+    Maximum Depth of Binary Tree: Find the maximum depth (height) of a binary tree.
+    Symmetric Tree: Check if a binary tree is symmetric.
+    Invert Binary Tree: Invert a binary tree (mirror image).
+    Same Tree: Check if two binary trees are the same.
+    Binary Tree Level Order Traversal: Perform level order traversal on a binary tree.
+    Binary Search Tree Validation: Check if a binary tree is a valid binary search tree (BST).
+    Lowest Common Ancestor: Find the lowest common ancestor of two nodes in a binary tree.
 
-    Write a function that takes a string and returns the number of vowels and consonants.
-    Difficulty: Easy-Medium
+Stacks & Queues
 
-8. Sum of Squares of Array
+    Valid Parentheses: Check if a string of parentheses is valid using a stack.
+    Implement Queue with Stacks: Implement a queue using two stacks.
+    Next Greater Element: Find the next greater element for each element in an array.
+    Min Stack: Implement a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+    Implement Stack with Queues: Implement a stack using two queues.
+    Daily Temperatures: Find how many days you would have to wait for a warmer temperature using a stack.
+    Asteroid Collision: Simulate asteroid collisions using a stack.
+    Reverse a Stack: Reverse a stack using recursion.
+    Evaluate Reverse Polish Notation: Evaluate the value of an arithmetic expression in reverse Polish notation.
+    Sliding Window Maximum: Find the maximum in each sliding window of size K in an array.
 
-    Write a function that returns the sum of squares of each element in an array of integers.
-    Difficulty: Easy-Medium
+Dynamic Programming
 
-9. Factorial (Recursive)
+    Climbing Stairs: Find the number of ways to climb N stairs where you can take 1 or 2 steps.
+    House Robber: Find the maximum amount of money you can rob without robbing two adjacent houses.
+    Fibonacci (DP): Calculate Fibonacci numbers using dynamic programming.
+    Longest Increasing Subsequence: Find the length of the longest increasing subsequence in an array.
+    Best Time to Buy and Sell Stock: Find the maximum profit from one buy-sell operation on a stock price array.
+    Coin Change: Find the minimum number of coins needed to make a given amount.
+    Knapsack Problem: Solve the 0/1 knapsack problem using dynamic programming.
+    Min Cost Climbing Stairs: Given an array where each index represents the cost of a step, find the minimum cost to reach the top.
+    Maximum Subarray: Find the contiguous subarray with the largest sum.
+    Partition Equal Subset Sum: Determine if an array can be partitioned into two subsets with equal sum.
 
-    Write a recursive function that returns the factorial of a given number n.
-    Difficulty: Easy-Medium
+Bit Manipulation
 
-10. Merge Two Sorted Arrays
-
-    Write a function that merges two sorted arrays into a single sorted array.
-    Difficulty: Easy-Medium
+    Hamming Distance: Calculate the Hamming distance between two integers.
+    Single Number: Find the element that appears only once in an array where every other element appears twice.
+    Number of 1 Bits: Count the number of 1 bits in the binary representation of a number.
+    Power of Two: Check if a number is a power of two using bit manipulation.

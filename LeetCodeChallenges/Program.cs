@@ -1,7 +1,7 @@
 ﻿class Program{
     static void Main(){
     
-        //Testcase 1
+       /* //Testcase 1
         Console.WriteLine();
         Console.WriteLine("Nth Fibonaci Number:");
         Console.WriteLine("++++++++++++++++++++++++++++");
@@ -109,5 +109,13 @@
         Console.WriteLine(string.Join(" ",Problems.MergeSortedArrays([1,2,3,4],[5,6,7,8])));
         Console.WriteLine(string.Join(" ",Problems.MergeSortedArrays([3243,53243,645355,3434543],[1,34,523,54345,5435453])));
         Console.WriteLine("++++++++++++++++++++++++++++");
+
+        Console.WriteLine();
+        Console.WriteLine("Sum Of Nums:");
+        Console.WriteLine("++++++++++++++++++++++++++++");
+        Console.WriteLine(Problems.SumOfElements([0,3,-3,-4,-5]));
+        Console.WriteLine(Problems.SumOfElements([0,0,0,0,-117]));
+        Console.WriteLine(Problems.SumOfElements([342,234,234,23,42,342,4]));
+        Console.WriteLine("++++++++++++++++++++++++++++");*/
     }
 }
