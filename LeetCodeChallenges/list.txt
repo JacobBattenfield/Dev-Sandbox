@@ -12,6 +12,7 @@ Arrays
     Product of Array: Return an array where each element is the product of all elements except itself.
 
 Strings
+
     Palindrome Check: Check if a string is a palindrome (reads the same forward and backward).
     Anagram Check: Check if two strings are anagrams of each other.
     Vowel Counter: Count the number of vowels in a given string.

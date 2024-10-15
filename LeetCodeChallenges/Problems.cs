@@ -166,6 +166,20 @@ class Problems{
         }
         return total;
     }
+
+    public static int[] InPlaceReversal(int[] nums){
+    int startPos = 0;
+    int endPos = nums.Length-1;
+
+    while(startPos<endPos){
+        int temp = nums[startPos];
+        nums[startPos] = nums[endPos];
+        nums[endPos] = temp;
+        startPos++;
+        endPos--;
+    }
+    return nums;
+    }
     
 
 

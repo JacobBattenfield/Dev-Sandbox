@@ -117,5 +117,14 @@
         Console.WriteLine(Problems.SumOfElements([0,0,0,0,-117]));
         Console.WriteLine(Problems.SumOfElements([342,234,234,23,42,342,4]));
         Console.WriteLine("++++++++++++++++++++++++++++");*/
+
+
+        Console.WriteLine();
+        Console.WriteLine("In Place Reversal Of Elements:");
+        Console.WriteLine("++++++++++++++++++++++++++++");
+        Console.WriteLine(string.Join(" ",Problems.InPlaceReversal([1,2,3,4,5,6,7,8,9,10])));
+        Console.WriteLine(string.Join(" ",Problems.InPlaceReversal([10,9,8,7,6,5,4,3,2,1])));
+        Console.WriteLine(string.Join(" ",Problems.InPlaceReversal([100,1000,10000,10000])));
+        Console.WriteLine("++++++++++++++++++++++++++++");
     }
 }
